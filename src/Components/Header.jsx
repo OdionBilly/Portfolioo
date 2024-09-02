@@ -1,10 +1,6 @@
 import React from 'react'
 import { LinkedinBoxFill, TwitterFill,GithubFill } from "akar-icons";
 
-
-
-
-
 export const Header = () => {
   return (
     <div className="bg-[#151515]">
@@ -12,7 +8,7 @@ export const Header = () => {
         <h1 className="text-[#ffff] font-spacegrotesk text-[20px] md:text-[32px]">
           adamkeyes
         </h1>
-        <div className="flex gap-6">
+        <div className="flex gap-2">
           {<GithubFill className="bg-[#fff] size-5" />}
           <img
             src="/src/assets/frontend.png"
