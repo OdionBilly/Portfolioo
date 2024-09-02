@@ -12,16 +12,16 @@ export const Header = () => {
         <h1 className="text-[#ffff] font-spacegrotesk text-[20px] md:text-[32px]">
           adamkeyes
         </h1>
-        <div className="flex gap-2">
+        <div className="flex gap-6">
           {<GithubFill className="bg-[#fff] size-5" />}
           <img
             src="/src/assets/frontend.png"
-            className="size-5 bg-white"
+            className="size-5 bg-[#ada4a4]"
             alt=""
           />
           {/* {<SiFrontendmentor className="bg-[#fff]" />} */}
           {<LinkedinBoxFill className="bg-[#fff] size-5" />}
-          {<TwitterFill className=" bg-white size-5" />}
+          {<TwitterFill className=" bg-[#c8b8b8] size-5" />}
         </div>
       </div>
     </div>
