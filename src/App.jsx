@@ -1,6 +1,6 @@
 import { Contact } from "./Components/Contact";
 import { Footer } from "./Components/Footer";
-import { Header } from "./Components/Header";
+import { Header } from "./Components/header";
 import { Hero } from "./Components/Hero";
 import { Projects } from "./Components/Projects";
 import { Skills } from "./Components/Skills";
