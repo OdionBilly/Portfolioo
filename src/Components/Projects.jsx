@@ -1,4 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import image1 from '../assets/Desktop-image/Bitmap-1.png'
+import image2 from '../assets/Desktop-image/desk-image-2.png'
+import image3 from '../assets/Desktop-image/desk-image-3.png'
+import image4 from '../assets/Desktop-image/desk-image-4.png'
+import image5 from '../assets/Desktop-image/desk-image-5.png'
+import image6 from '../assets/Desktop-image/desk-image-6.png'
 
 export const Projects = () => {
   return (
@@ -7,7 +14,8 @@ export const Projects = () => {
         <h1 className="font-spacegrotesk text-[30px] md:text-[72px] lg:text-[88px]">
           Projects
         </h1>
-        <p className="font-spacegrotesk text-[15px] border-b-2 border-[#4EE1A0]">
+        <p
+          className="font-spacegrotesk text-[15px] border-b-2 border-[#4EE1A0]">
           CONTACT ME
         </p>
       </div>
@@ -24,11 +32,7 @@ export const Projects = () => {
               VIEW CODE
             </p>
 
-            <img
-              src="/src/assets/Desktop-image/Bitmap-1.png"
-              className=" active:opacity-10 z-1"
-              alt=""
-            />
+            <img src={image1} className=" active:opacity-10 z-1" alt="" />
 
             <h1 className=" font-spacegrotesk text-[24px] pt-10">
               DESIGN PORTFOLIO
@@ -56,11 +60,7 @@ export const Projects = () => {
                 VIEW CODE
               </p>
 
-              <img
-                src="/src/assets/Desktop-image/desk-image-2.png"
-                className="active:opacity-10"
-                alt=""
-              />
+              <img src={image2} className="active:opacity-10" alt="" />
               <h1 className="font-spacegrotesk text-[24px] pt-10">
                 E-LEARNING LANDING PAGE
               </h1>
@@ -87,11 +87,7 @@ export const Projects = () => {
                 VIEW CODE
               </p>
 
-              <img
-                src="/src/assets/Desktop-image/desk-image-3.png"
-                className="active:opacity-20"
-                alt=""
-              />
+              <img src={image3} className="active:opacity-20" alt="" />
 
               <h1 className=" font-spacegrotesk text-[24px] pt-10">
                 TODO WEB APP
@@ -111,11 +107,7 @@ export const Projects = () => {
 
           {/* fourth */}
           <div className="px-6 pt-10">
-            <img
-              src="/src/assets/Desktop-image/desk-image-4.png"
-              className="active:opacity-10"
-              alt=""
-            />
+            <img src={image4} className="active:opacity-10" alt="" />
 
             <h1 className=" font-spacegrotesk text-[24px] pt-10">
               ENTERTAINMENT WEB APP
@@ -134,11 +126,7 @@ export const Projects = () => {
 
           {/* fifth */}
           <div className="px-6 pt-10">
-            <img
-              src="/src/assets/mobile-image/mobile-image-2.png"
-              className="active:opacity-10"
-              alt=""
-            />
+            <img src={image5} className="active:opacity-10" alt="" />
 
             <h1 className=" font-spacegrotesk text-[24px] pt-10">
               MEMORY GAME
@@ -157,11 +145,7 @@ export const Projects = () => {
 
           {/* sixth */}
           <div className="px-6 pt-10">
-            <img
-              src="/src/assets/mobile-image/mobile-image-6.png"
-              className="active:opacity-10"
-              alt=""
-            />
+            <img src={image6} className="active:opacity-10" alt="" />
             <h1 className=" font-spacegrotesk text-[24px] pt-10">
               ART GALLERY SHOWCASE
             </h1>
