@@ -9,15 +9,15 @@ export const Header = () => {
           adamkeyes
         </h1>
         <div className="flex gap-2">
-          {<GithubFill className="bg-[#fff] size-5" />}
+          {<GithubFill className="bg-[#fff] size-5 rounded-[10px]"/>}
           <img
             src="/src/assets/frontend.png"
-            className="size-5 bg-[#ada4a4]"
+            className="size-5 bg-[#ada4a4] rounded-[10px]"
             alt=""
           />
           {/* {<SiFrontendmentor className="bg-[#fff]" />} */}
-          {<LinkedinBoxFill className="bg-[#fff] size-5" />}
-          {<TwitterFill className=" bg-[#c8b8b8] size-5" />}
+          {<LinkedinBoxFill className="bg-[#fff] size-5 rounded-[10px]" />}
+          {<TwitterFill className=" bg-[#c8b8b8] size-5 rounded-[10px]"/>}
         </div>
       </div>
     </div>
