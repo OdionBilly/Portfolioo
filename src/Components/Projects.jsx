@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link , NavLink } from 'react-router-dom'
 import image1 from '../assets/Desktop-image/Bitmap-1.png'
 import image2 from '../assets/Desktop-image/desk-image-2.png'
 import image3 from '../assets/Desktop-image/desk-image-3.png'
@@ -14,10 +14,10 @@ export const Projects = () => {
         <h1 className="font-spacegrotesk text-[30px] md:text-[72px] lg:text-[88px]">
           Projects
         </h1>
-        <p
-          className="font-spacegrotesk text-[15px] border-b-2 border-[#4EE1A0]">
+        <NavLink to={`/`}
+          className={({isActive}) => isActive ? " border-b-2 border-[#589858]" :"NavLink" }>
           CONTACT ME
-        </p>
+        </NavLink>
       </div>
 
       {/* project Examples */}

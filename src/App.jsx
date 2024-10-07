@@ -1,19 +1,15 @@
 import { Contact } from "./Components/Contact";
-import { Footer } from "./Components/Footer";
-import { Header } from "./Components/header";
-import { Hero } from "./Components/Hero";
-import { Projects } from "./Components/Projects";
-import { Skills } from "./Components/Skills";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
