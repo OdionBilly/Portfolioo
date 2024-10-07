@@ -1,4 +1,5 @@
 import React from 'react'
+import myimage from '../assets/Desktop-image/odion.jpeg'
 
 export const Hero = () => {
   return (
@@ -6,7 +7,7 @@ export const Hero = () => {
       <div className="size-[280px] md:size-[300px] lg:size-[500px] pl-[100px] md:pl-[1px]">
         <img
           className="md:w-[270px] lg:w-[100%] lg:ml-[-109px] lg:mt-[-20px]"
-          src="/src/assets/odion.jpeg"
+          src={myimage}
           alt=""
         />
       </div>
