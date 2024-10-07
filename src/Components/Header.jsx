@@ -1,4 +1,5 @@
 import React from 'react'
+import Icon from '../assets/Desktop-image/frontend.png'
 import { LinkedinBoxFill, TwitterFill,GithubFill } from "akar-icons";
 
 export const Header = () => {
@@ -11,7 +12,7 @@ export const Header = () => {
         <div className="flex gap-2">
           {<GithubFill className="bg-[#fff] size-5 rounded-[10px]"/>}
           <img
-            src="/src/assets/frontend.png"
+            src={Icon}
             className="size-5 bg-[#ada4a4] rounded-[10px]"
             alt=""
           />
